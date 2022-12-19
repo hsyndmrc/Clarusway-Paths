@@ -1,0 +1,437 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: burlywood; */
+}
+
+header h1.header-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 90px;
+  color: orange;
+}
+
+main {
+  margin: 10px;
+}
+
+/*? software div'ine ait css kodlari*/
+
+div.software {
+  display: flex;
+  width: 1000px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+img.fs-img {
+  width: 350px;
+  padding: 10px;
+}
+
+div.software h2.software-title {
+  /* display: inline-block; */
+  padding-left: 5px;
+  padding-top: 10px;
+  color: aqua;
+}
+
+p.software-par {
+  text-indent: 15px;
+  color: black;
+}
+
+button.software-button {
+  background-color: brown;
+  float: right;
+  margin-right: 20px;
+  border: none;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+a.software-link {
+  text-decoration: none;
+  background-color: brown;
+  color: white;
+  /* border-radius: 3px; */
+}
+
+img.fs-img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+button.software-button:hover {
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+  background-color: brown;
+  box-shadow: 0px 0px 26px 7px rgba(0, 0, 0, 1);
+}
+
+div.software:hover {
+  box-shadow: 6px -9px 49px 0px rgba(0, 0, 0, 0.75);
+}
+
+/*? AWS&Devps Engineer div'ine ait css kodlari*/
+
+div.aws-devops {
+  display: flex;
+  width: 1000px;
+  margin: 20px auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+div.aws-devops img.aws-devops-img {
+  width: 350px;
+  padding: 10px;
+}
+
+div.aws-devops h2.aws-devops-title {
+  padding-left: 5px;
+  color: aqua;
+}
+
+div.aws-devops p.aws-devops-par {
+  text-indent: 15px;
+}
+
+button.aws-devops-button {
+  background-color: brown;
+  float: right;
+  margin-right: 20px;
+  border: none;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+a.aws-devops-link {
+  text-decoration: none;
+  background-color: brown;
+  color: white;
+  /* border-radius: 3px; */
+}
+
+button.aws-devops-button:hover {
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+  background-color: brown;
+  box-shadow: 0px 0px 26px 7px rgba(0, 0, 0, 1);
+}
+
+img.aws-devops-img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+div.aws-devops:hover {
+  box-shadow: 6px -9px 49px 0px rgba(0, 0, 0, 0.75);
+}
+
+/*? data-science div'ine ait css kodlari*/
+
+div.data-science {
+  display: flex;
+  width: 1000px;
+  margin: 20px auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+div.data-science img.data-science-img {
+  width: 350px;
+  padding: 10px;
+}
+
+div.data-science h2.data-science-title {
+  padding-left: 5px;
+  padding-top: 10px;
+  color: aqua;
+}
+
+div.data-science p.data-science-par {
+  text-indent: 15px;
+}
+
+button.data-science-button {
+  background-color: brown;
+  float: right;
+  margin-right: 20px;
+  border: none;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+a.data-science-link {
+  text-decoration: none;
+  background-color: brown;
+  color: white;
+  /* border-radius: 3px; */
+}
+
+button.data-science-button:hover {
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+  background-color: brown;
+  box-shadow: 0px 0px 26px 7px rgba(0, 0, 0, 1);
+}
+
+img.data-science-img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+div.data-science:hover {
+  box-shadow: 6px -9px 49px 0px rgba(0, 0, 0, 0.75);
+}
+
+/*? saleforce div'ine ait css kodladi*/
+
+div.saleforce {
+  display: flex;
+  width: 1000px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+div.saleforce img.saleforce-img {
+  width: 350px;
+  padding: 10px;
+}
+
+div.saleforce h2.saleforce-title {
+  padding-left: 5px;
+  padding-top: 10px;
+  color: aqua;
+}
+
+div.saleforce p.saleforce-par {
+  text-indent: 15px;
+}
+
+button.saleforce-button {
+  background-color: brown;
+  float: right;
+  margin-right: 20px;
+  border: none;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+a.saleforce-link {
+  text-decoration: none;
+  background-color: brown;
+  color: white;
+  /* border-radius: 3px; */
+}
+
+button.saleforce-button:hover {
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+  background-color: brown;
+  box-shadow: 0px 0px 26px 7px rgba(0, 0, 0, 1);
+}
+
+img.saleforce-img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+div.saleforce:hover {
+  box-shadow: 6px -9px 49px 0px rgba(0, 0, 0, 0.75);
+}
+
+/*? cyber-ssecurity div'ine ait css kodlari*/
+
+div.cyber-security {
+  display: flex;
+  width: 1000px;
+  margin: 20px auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+div.cyber-security img.cyber-security-img {
+  width: 350px;
+  padding: 10px;
+}
+
+div.cyber-security h2.cyber-security-title {
+  padding-left: 5px;
+  padding-top: 10px;
+  color: aqua;
+}
+
+div.cyber-security p.cyber-security-par {
+  text-indent: 15px;
+}
+
+button.cyber-security-button {
+  background-color: brown;
+  float: right;
+  margin-right: 20px;
+  border: none;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+a.cyber-security-link {
+  text-decoration: none;
+  background-color: brown;
+  color: white;
+  /* border-radius: 3px; */
+}
+
+button.cyber-security-button:hover {
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+  background-color: brown;
+  box-shadow: 0px 0px 26px 7px rgba(0, 0, 0, 1);
+}
+
+img.cyber-security-img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+div.cyber-security:hover {
+  box-shadow: 6px -9px 49px 0px rgba(0, 0, 0, 0.75);
+}
+
+/*? blockhain div'ine ait css kodlari*/
+
+div.blockhain {
+  display: flex;
+  width: 1000px;
+  margin: 20px auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+div.blockhain img.blockhain-img {
+  width: 350px;
+  padding: 10px;
+}
+
+div.blockhain h2.blockhain-title {
+  padding-left: 5px;
+  padding-top: 10px;
+  color: aqua;
+}
+
+div.blockhain p.blockhain-par {
+  text-indent: 15px;
+}
+
+button.blockhain-button {
+  background-color: brown;
+  float: right;
+  margin-right: 20px;
+  border: none;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+a.blockhain-link {
+  text-decoration: none;
+  background-color: brown;
+  color: white;
+  /* border-radius: 3px; */
+}
+
+button.blockhain-button:hover {
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+  background-color: brown;
+  box-shadow: 0px 0px 26px 7px rgba(0, 0, 0, 1);
+}
+
+img.blockhain-img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+div.blockhain:hover {
+  box-shadow: 6px -9px 49px 0px rgba(0, 0, 0, 0.75);
+}
+/*? software-dev-eng div'ine ait css kodlari*/
+
+div.software-dev-eng {
+  display: flex;
+  width: 1000px;
+  margin: 20px auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+div.software-dev-eng img.software-dev-eng-img {
+  width: 350px;
+  padding: 10px;
+}
+
+div.software-dev-eng h2.software-dev-eng-title {
+  padding-left: 5px;
+  padding-top: 10px;
+  color: aqua;
+}
+
+div.software-dev-eng p.software-dev-eng-par {
+  text-indent: 15px;
+}
+
+button.software-dev-eng-button {
+  background-color: brown;
+  float: right;
+  margin-right: 20px;
+  border: none;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+a.software-dev-eng-link {
+  text-decoration: none;
+  background-color: brown;
+  color: white;
+  /* border-radius: 3px; */
+}
+
+button.software-dev-eng-button:hover {
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+  background-color: brown;
+  box-shadow: 0px 0px 26px 7px rgba(0, 0, 0, 1);
+}
+
+img.software-dev-eng-img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+div.software-dev-eng:hover {
+  box-shadow: 6px -9px 49px 0px rgba(0, 0, 0, 0.75);
+}
